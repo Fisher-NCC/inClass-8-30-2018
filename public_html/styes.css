@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+.container {
+    border: 1px solid black;
+    margin: 0 auto;
+    max-width: 768px;
+    padding: 20px;
+}
+
+.button {
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+}
+
+.button:hover {
+    background: white;
+    color: black;
+}
