@@ -23,6 +23,6 @@ body {
 }
 
 .button:hover {
-    background: white;
+    background: pink;
     color: black;
 }
